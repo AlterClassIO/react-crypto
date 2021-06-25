@@ -38,7 +38,7 @@ file provides four scripts:
 
 2. Navigate to the project folder: `cd react-crypto`
 
-3. Install the dependencies: `npm install`
+3. Install the dependencies: `npm install --legacy-peer-deps`
 
 4. Start the app in the development mode: `npm start`
 
