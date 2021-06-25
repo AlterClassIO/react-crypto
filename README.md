@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# The Cryptocurrency Price-Tracking React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Starter code for the project in the React Router module of the
+[React course](https://www.alterclass.io/courses/react).
 
-## Available Scripts
+Follow along with the [classroom](https://classroom.alterclass.io) lessons to
+complete the project, or attend a live-stream session with your instructor from
+the
+[Discord server](https://discord.com/channels/742753758450155662/748890194136137838).
 
-In the project directory, you can run:
+[![The Cryptocurrency Price-Tracking React App by AlterClass](https://alterclass.s3.eu-west-3.amazonaws.com/react-crypto.png)](https://react-crypto-listing.netlify.app/)
 
-### `npm start`
+Check out the live demo of the final result:
+[https://react-crypto-listing.netlify.app/](https://react-crypto-listing.netlify.app/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## create-react-app
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This project uses the popular
+[create-react-app (CRA)](https://create-react-app.dev/) command to setup a
+modern React application. This way we can focus on the code itself, and not
+worry about configuring many build tools.
 
-### `npm test`
+The
+[package.json](https://github.com/AlterClassIO/react-crypto/blob/master/package.json)
+file provides four scripts:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `start`: Runs the app in the development mode.
+- `build`: Builds the app for production to the build folder. It correctly
+  bundles React in production mode and optimizes the build for the best
+  performance.
+- `test`: Launches the test runner in the interactive watch mode.
+- `eject`: Remove create-react-app build dependency from your project.
 
-### `npm run build`
+## Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the project repository:
+   `git clone https://github.com/AlterClassIO/react-crypto`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project folder: `cd react-crypto`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies: `npm install`
 
-### `npm run eject`
+4. Start the app in the development mode: `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Compiled successfully!](https://alterclass.s3.eu-west-3.amazonaws.com/react-crypto-compiled.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open [http://localhost:3000](http://localhost:3000) to view your React
+   application in the browser
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+6. Follow along with the lesson.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+7. Implement the project.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+8. Submit!
